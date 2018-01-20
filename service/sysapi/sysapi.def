@@ -1,0 +1,72 @@
+; sysapi.def : 声明 DLL 的模块参数。
+
+LIBRARY "sysapi.dll"
+
+EXPORTS
+    sys_InitNet                     @1
+    sys_UninitNet                   @2
+    sys_ChkNet
+    sys_Socket
+    sys_CloseSocket
+    sys_Bind
+    sys_Listen
+    sys_Accept
+    sys_Connect
+    sys_Recv
+    sys_Select
+    sys_Send
+    sys_GetSockName
+    sys_local_ips
+    sys_CreateThread
+    sys_SuspendThread
+    sys_ResumeThread
+    sys_TerminateThread
+    sys_CreateEvent
+    sys_WaitForSingleObject
+    sys_WaitForMultipleObjects
+    sys_SetEvent
+    sys_ResetEvent
+    sys_CloseHandle
+    sys_CreateMutex
+    sys_OpenMutex
+    sys_ReleaseMutex
+    sys_InitializeCriticalSection
+    sys_DeleteCriticalSection
+    sys_EnterCriticalSection
+    sys_LeaveCriticalSection
+    sys_LoadLibrary
+    sys_FreeLibrary
+    sys_GetProcAddress
+    sys_Sleep
+    sys_GetLocalTime
+    sys_GetCurrentPath
+    sys_CreateFile
+    sys_WriteFile
+    sys_ReadFile
+    sys_DeleteFile
+    sys_GetFileAttribute
+    sys_FindFirstFile
+    sys_FindNextFile
+    sys_FindClose
+    sys_CreateFileChangeNotify
+    sys_CloseFileChangeNotify
+    sys_OpenCom
+    sys_CloseCom
+    sys_ReadCom
+    sys_WriteCom
+    sys_wReadCom
+    search_usb_dev
+    gbk_to_ascii
+    gbk_to_utf8
+    ascii_to_gbk
+    utf8_to_gbk
+    copy_to_board
+
+	sys_UnmapViewOfFile
+	sys_OpenFileMapping
+	sys_CreateFileMapping
+	sys_MapViewOfFile
+
+	sys_OutputDebugString
+
+	get_module_path

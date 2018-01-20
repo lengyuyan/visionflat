@@ -1,0 +1,8 @@
+
+
+EXPORTS
+    ShowSceneDebugDlg        @ 1
+	IniSceneData             @ 2
+	InitGrabWay2Sceneimage   @ 3
+	SceneVisionProcess       @ 4
+   

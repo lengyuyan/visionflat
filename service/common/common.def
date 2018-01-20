@@ -1,0 +1,44 @@
+; common.def : 声明 DLL 的模块参数。
+
+LIBRARY "common.dll"
+
+EXPORTS
+    init_common                 @1
+    uninit_common               @2
+
+    register_notify             @3
+    unregister_notify           @4
+    ;init_msg                    @5
+    ;uninit_msg                  @6
+    msg_send                    @7
+    msg_post                    @8
+    ;msg_recv_str
+
+
+    init_ssk                    @9
+    uninit_ssk                  @10
+    ssk_server                  @11
+    ssk_conn                    @12
+    ssk_close                   @13
+    ssk_recv                    @14
+    ssk_send                    @15
+    ssk_clear_msg               @16
+    ssk_status                  @17
+    regist_ssk_recv             @18
+    ssk_is_server               @19
+    
+    trace                       @20
+    is_file_exist               @21
+    is_file_read 
+	create_path              
+
+    create_image_file           
+    get_time_str                
+    Execution_3DES    
+	
+	chk_ipaddress
+	pool_thread
+	comm_strcpy         
+	get_str_type
+	trim_char
+	get_last_err

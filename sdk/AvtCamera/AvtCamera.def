@@ -1,0 +1,7 @@
+LIBRARY
+
+EXPORTS
+    CreateCamera     @1
+	ReleaseCamera    @2
+	getList          @3
+

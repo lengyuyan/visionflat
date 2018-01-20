@@ -1,0 +1,21 @@
+; skt.def : 声明 DLL 的模块参数。
+
+LIBRARY "skt.dll"
+
+EXPORTS
+
+    skt_init                @1
+    skt_uninit              @2
+    create_c
+    create_s
+    skt_get_model
+    skt_set_model
+    skt_conn
+    skt_close
+    skt_reconn
+    skt_send
+    skt_recv
+    skt_status
+    get_socket
+    get_addr
+    clear_msg

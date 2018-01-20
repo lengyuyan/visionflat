@@ -1,0 +1,17 @@
+; generic_vision.def : 声明 DLL 的模块参数。
+LIBRARY "genericConnect.dll"
+
+EXPORTS
+    init_vision
+    uninit_vision
+    get_vision_info
+    vision_status
+    send_custom_cmd
+    recv_custom_cmd
+    vision_process
+    recv_process_result
+    get_process_image
+	get_process_image_path
+	send_calib_data
+	recv_calib_data
+	convert_calib_data
